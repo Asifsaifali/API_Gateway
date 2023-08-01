@@ -4,7 +4,7 @@ const rateLimit = require('express-rate-limit')
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const { default: axios } = require('axios');
 
-const {PORT}=require('./ServerConfig')
+const PORT=3005
 
 
 const app=express();
